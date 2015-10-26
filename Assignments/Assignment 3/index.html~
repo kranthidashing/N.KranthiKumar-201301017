@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+     <head>
+	      <title>The word factory</title>
+		  <link rel="stylesheet" href="style.css"  type="text/css" />
+<meta charset="UTF-8">
+	 </head> 
+	 <body>
+	 <div id="container">
+	    <h1 class="cssstyles">WORD FACTORY FOR FRUITS</h1>
+		&nbsp
+	
+	  <table id="tbl1" align='center'>
+	<tr>
+		<td><button class = "Style1" type="button" onclick="getdata(1,1)" id="11"></td>
+        </tr>
+        <table id="tbl2">
+	<tr>
+		<td><button class = "Style1" type="button" onclick="getdata1(1,1)" id="111"></td>
+		<td><button class = "Style1" type="button" onclick="getdata1(1,2)" id="112"></td>
+		<td><button class = "Style1" type="button" onclick="getdata1(1,3)" id="113"></td>
+                <td><button class = "Style1" type="button" onclick="getdata1(1,4)" id="114"></td>
+	</tr>
+	<tr>
+		<td><button class = "Style1" type="button" onclick="getdata1(2,1)" id="121"></td>
+		<td><button class = "Style1" type="button" onclick="getdata1(2,2)" id="122"></td>
+		<td><button class = "Style1" type="button" onclick="getdata1(2,3)" id="123"></td>
+                <td><button class = "Style1" type="button" onclick="getdata1(2,4)" id="124"></td>
+	</tr>
+	<tr>
+		<td><button class = "Style1" type="button" onclick="getdata1(3,1)" id="131"></td>
+		<td><button class = "Style1" type="button" onclick="getdata1(3,2)" id="132"></td>
+		<td><button class = "Style1" type="button" onclick="getdata1(3,3)" id="133"></td>
+                <td><button class = "Style1" type="button" onclick="getdata1(3,4)" id="134"></td>
+	</tr>
+	<tr>
+		<td><button class = "Style1" type="button" onclick="getdata1(4,1)" id="141"></td>
+		
+	</tr>
+	</table>
+	<p id="Selectedletter" style="text-align:center;font-weight:bolder;font-size:26px;"></p>
+<p>score</p>
+<p id="Score"></p>
+
+ <button id="one" onclick="timedText()">Start timer</button>
+     <p id="demo"></p>
+     <script>
+            function timedText() {
+                 setTimeout(myTimeout1, 1000) 
+                  setTimeout(myTimeout2, 2000) 
+                  setTimeout(myTimeout3, 3000) 
+                setTimeout(myTimeout4, 4000) 
+                  setTimeout(myTimeout5, 5000) 
+                  setTimeout(myTimeout6, 6000) 
+setTimeout(myTimeout7, 7000) 
+    setTimeout(myTimeout8, 8000) 
+    setTimeout(myTimeout9, 9000) 
+setTimeout(myTimeout10, 10000) 
+    setTimeout(myTimeout11, 11000) 
+    setTimeout(myTimeout12, 12000) 
+setTimeout(myTimeout13, 13000) 
+    setTimeout(myTimeout14, 14000) 
+    setTimeout(myTimeout15, 15000) 
+setTimeout(myTimeout16, 16000) 
+    setTimeout(myTimeout17, 17000) 
+    setTimeout(myTimeout18, 18000) 
+setTimeout(myTimeout19, 19000) 
+    setTimeout(myTimeout20, 20000) 
+    setTimeout(myTimeout21, 21000) 
+setTimeout(myTimeout22, 22000) 
+    setTimeout(myTimeout23, 23000) 
+    setTimeout(myTimeout24, 24000) 
+setTimeout(myTimeout25, 25000) 
+   setTimeout(myTimeout26, 26000) 
+}
+function myTimeout1() {
+    document.getElementById("demo").innerHTML = "25";
+}
+function myTimeout2() {
+    document.getElementById("demo").innerHTML = "24";
+}
+function myTimeout3() {
+    document.getElementById("demo").innerHTML = "23";
+}
+function myTimeout4() {
+    document.getElementById("demo").innerHTML = "22";
+}
+function myTimeout5() {
+    document.getElementById("demo").innerHTML = "21";
+}
+function myTimeout6() {
+    document.getElementById("demo").innerHTML = "20";
+}
+function myTimeout7() {
+    document.getElementById("demo").innerHTML = "19";
+}
+function myTimeout8() {
+    document.getEle
+mentById("demo").innerHTML = "18";
+}
+function myTimeout9() {
+    document.getElementById("demo").innerHTML = "17";
+}
+function myTimeout10() {
+    document.getElementById("demo").innerHTML = "16";
+}
+function myTimeout11() {
+    document.getElementById("demo").innerHTML = "15";
+}
+function myTimeout12() {
+    document.getElementById("demo").innerHTML = "14";
+}
+function myTimeout13() {
+    document.getElementById("demo").innerHTML = "13";
+}
+function myTimeout14() {
+    document.getElementById("demo").innerHTML = "12";
+}
+function myTimeout15() {
+    document.getElementById("demo").innerHTML = "11";
+}
+function myTimeout16() {
+    document.getElementById("demo").innerHTML = "10";
+}
+function myTimeout17() {
+    document.getElementById("demo").innerHTML = "9";
+}
+function myTimeout18() {
+    document.getElementById("demo").innerHTML = "8";
+}
+function myTimeout19() {
+    document.getElementById("demo").innerHTML = "7";
+}
+function myTimeout20() {
+    document.getElementById("demo").innerHTML = "6";
+}
+function myTimeout21() {
+    document.getElementById("demo").innerHTML = "5";
+}
+function myTimeout22() {
+    document.getElementById("demo").innerHTML = "4";
+}
+function myTimeout23() {
+    document.getElementById("demo").innerHTML = "3";
+}
+function myTimeout24() {
+    document.getElementById("demo").innerHTML = "2";
+}
+function myTimeout25() {
+    document.getElementById("demo").innerHTML = "1";
+}
+function myTimeout26() {
+    document.getElementById("one").innerHTML = "PlayAgain";
+document.getElementById("demo").innerHTML = "TimeUp";
+}
+</script>
+
+<script type="text/javascript" src="game.js"></script>
+	<center><button class = "Style" type="button" onclick="Check()" id="Submit">Check</button></center>
+
+		 
+	 
+	
+	 
+	 </div>
+	 </body>   
+</html>	 

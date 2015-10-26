@@ -1,0 +1,39 @@
+body{
+	background-colur:#f4f4f4;
+}
+#container{
+	width:600px;
+	margin:auto;
+	border:1px solid #cccccc;
+    padding:0 0 0 100;
+	border-radius:10px;
+	min-height:600px;
+}
+h1.cssstyles{
+	text-align:center;
+}
+th,td{
+	text-align:center;
+}
+td{
+	border-color:blue;
+        padding:3px 0px;
+        color:black;
+        background-color:white;
+}
+.Style1{
+	width:30px;
+	height:30px;
+	border-color: orange;
+	background-color: white;
+	color: orange;
+}
+.Style{
+	width:90px;
+	height: 60px;
+	border-color: black;
+	border-width: 3px;
+}
+.score1{
+        left=550px;
+}
