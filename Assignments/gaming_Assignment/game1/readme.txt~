@@ -1,0 +1,14 @@
+                          @@@@@@@@@@@@@@@@@@@@@   ORDERING   @@@@@@@@@@@@@@@@@@@@
+     
+     -> Firstly open the main.html
+     -> Select the language that you want.
+     -> Then,give the numbering to the words,set them in the alphabetical order.  
+     -> Then press the submit button,If ordering is correct,then moves to another level.
+     -> Else,in the same level itself.
+     -> By level By level scorce is incrementing.
+
+
+     Note:-There are upto 15 levels of each language.
+           1.Easy   -> 1  to 5  Levels.
+           2.Medium -> 6  to 10 Levels.
+           3.Hard   -> 11 to 15 Levels.              

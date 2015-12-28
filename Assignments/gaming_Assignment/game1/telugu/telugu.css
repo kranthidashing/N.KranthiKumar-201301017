@@ -1,0 +1,59 @@
+.ty
+{
+	font-size: 15px;
+    width: 100px; 
+    height: 40px;
+    background-color: #FF82AB;
+}
+.ty1
+{
+	font-size: 15px;
+    width: 200px; 
+    height: 43px;
+    background-color: green;
+
+}
+.ty2
+{
+	font-size: 15px;
+    width: 200px; 
+    height: 43px;
+    background-color: red;
+
+}
+ .JK {
+ 	font-size: 30px;
+ 	text-align: center;
+ 	width: 100px; 
+    height: 30px;
+    border: 2px solid #aaaaaa;
+    background-color: #7FFFD4;
+    border-color: #EED5D2;
+ }
+	.droptarget {
+	position: absolute;
+	left: 550px;
+    top: 120px;
+	width: 100px; 
+    height: 450px;
+    border: 0px solid #aaaaaa;
+}
+   .droptarget1 {
+	position: absolute;
+	left: 680px;
+    top: 120px;
+	width: 50px; 
+    height: 450px;
+    border: 0px solid #aaaaaa;
+}
+.sd {
+	width: 50px; 
+    height: 34px;
+    border: 2px solid #aaaaaa;
+    background-color: #FFE4C4;
+    border-color: #EED5D2;
+}
+body {
+    background: url(kk12.jpg);
+    background-repeat: no-repeat;
+}
