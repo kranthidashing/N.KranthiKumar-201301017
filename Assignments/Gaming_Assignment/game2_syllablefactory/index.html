@@ -1,0 +1,51 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<title>ordering</title>
+</head>
+<style type="text/css">
+	.ss
+	{
+	  font-size: 25px;
+	  position: absolute;
+	  left: 450px;
+	  top: 170px;
+      height: 150px;
+      width: 500px;
+	}
+</style>
+<body background="kk.jpg">
+<div class="ss">
+     <center><h2>Welcome To Syllable Factory</h2></center>
+     <p>
+     <center><h3>Select the language</h3>
+		<select  id='ll'>
+		    <option value=' '></option>
+			<option value='telugu'> Telugu </option>
+			<option value='hindi'> Hindi </option>
+			<option value='tamil'> Tamil </option>
+		</select>
+		<button  onclick="check1()">submit</button>
+		</center>
+</div>
+		<script type="text/javascript">
+		function check1()
+		{
+          if(document.getElementById('ll').value=="telugu")
+          {
+          	window.open ('telugu/telugu.html','_self',false);
+          }
+          if(document.getElementById('ll').value=="hindi")
+          {
+          	window.open ('hindi/hindi.html','_self',false);
+          }
+          if(document.getElementById('ll').value=="tamil")
+          {
+          	window.open ('tamil/tamil.html','_self',false);
+          }
+		}
+
+		</script>
+
+</body>
+</html>
